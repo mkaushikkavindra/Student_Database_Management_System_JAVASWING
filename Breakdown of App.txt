@@ -1,0 +1,13 @@
+Homepage (Log in Page)
+
+Administrator (After Log In) |
+1) Add Student
+2) Edit Student Details
+3) Remove Student
+
+[Student Table Infos (* - Compulsory) - ID*, Name*, DateOfBirth*, Mobile Number*, Residential Address*, Nationality*(Indian, Any Other (If yes, enable a textbox)), Mother Tongue*, Blood Group*, Email Address*, Father Name*, Mother's Name*, Guardian's Name(Yes, If Applicable (enable textbox), No), Department*, Year of Joining*, Pass Out Year*]
+
+[Table Name in Oracle - collegestudents]
+
+[Command in Oracle, used to create the table]
+create table collegestudents (Student_ID NUMBER primary key, Student_Name varchar2(255) NOT NULL, Date_Of_Birth DATE NOT NULL, Mobile_Number NUMBER(10) NOT NULL, Residential_Address varchar2(255) NOT NULL, Nationality varchar2(255) NOT NULL, Mother_Tongue varchar2(255) NOT NULL, Blood_Group varchar2(5) NOT NULL, Email_Address varchar2(255) NOT NULL, Father_Name varchar2(255), Mother_Name varchar2(255), Guardian_Name varchar2(255), Department varchar2(255) NOT NULL, Year_Of_Joining NUMBER(4) NOT NULL, Pass_Out_Year NUMBER(4) NOT NULL)]
